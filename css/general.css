@@ -6,8 +6,8 @@
 
 body {
   font-family: Roboto, sans-serif;
-  font-style: normal;
-  font-weight: 400;
+  /* font-style: normal; */
+  /* font-weight: 400; */
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -20,9 +20,9 @@ body {
   font-size: 16px;
   line-height: 1.6;
   color: var(--title-text-color);
-    border: none;
+  border: none;
   border-radius: 4px;
-
+  cursor: pointer;
 }
 
 .btn:hover,
@@ -30,5 +30,3 @@ body {
   color: #ffffff;
   background-color: var(--accent-color);
 }
-
-
