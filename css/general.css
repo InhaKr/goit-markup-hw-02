@@ -1,7 +1,11 @@
 :root {
+
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196F3;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --background-dark-color: #2f303a;
 }
 
 body {
@@ -9,7 +13,7 @@ body {
   /* font-style: normal; */
   /* font-weight: 400; */
   font-size: 14px;
-  line-height: 1.7;
+  /* line-height: 1.7; */
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }

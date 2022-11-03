@@ -1,5 +1,6 @@
+
 .header {
-  background-color: #ffffff;
+  background-color: var(--white-color);
 }
 
 .header-logo {
@@ -7,7 +8,7 @@
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  color: #000000;
+  color: var(--black-color);
 }
 
 .logo {
@@ -44,7 +45,7 @@ a:focus {
   font-size: 44px;
   line-height: 1.4;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--white-color);
   text-transform: uppercase;
 }
 
@@ -60,7 +61,7 @@ a:focus {
 }
 
 .solutions {
-  background-color: #2f303a;
+  background-color: var(--background-dark-color);
   text-align: center;
 }
 
@@ -68,11 +69,16 @@ a:focus {
   font-weight: 700;
   letter-spacing: 0.06em;
   line-height: 1.9;
+  background-color: var(--accent-color);
+  color: var(--white-color);
 }
 
 .characteristic-subtitle {
   line-height: 1.1;
   text-transform: uppercase;
+}
+.characteristic-text {
+  line-height: 1.7;
 }
 
 .team {
@@ -91,18 +97,20 @@ a:focus {
 }
 
 .footer {
-  background-color: #2F303A;
+  background-color: var(--background-dark-color);
 }
 
 .footer-logo,
 .footer-address {
   font-style: normal;
-  color: #ffffff;
+  color: var(--white-color);
+  line-height: 1.7;
 }
 
 .footer-link {
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
+  line-height: 1.7;
 }
 
 /* стили для страницы портфолио */
