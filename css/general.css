@@ -5,17 +5,19 @@
   --accent-color: #2196F3;
   --white-color: #ffffff;
   --black-color: #000000;
+  --background-semi-dark: #f5f4fa;
   --background-dark-color: #2f303a;
 }
 
 body {
   font-family: Roboto, sans-serif;
-  /* font-style: normal; */
-  /* font-weight: 400; */
   font-size: 14px;
-  /* line-height: 1.7; */
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  background-color: var(--white-color);
+    /* line-height: 1.7; */
+    /* font-style: normal; */
+  /* font-weight: 400; */
 }
 
 .btn {
